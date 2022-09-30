@@ -12,20 +12,20 @@
 
 ### サービスの構築
 ```
-$ docker-compose build
+$ docker compose build
 ```
 
 ### コンテナの作成と立ち上げ
 ```
-$ docker-compose up
+$ docker compose up -d
 ```
 
 ### アプリのコンテナに接続
 ```
-$ docker-compose exec app bash
+$ docker compose exec app bash
 ```
 
 ### Djangoインストールコマンド
 ```
-$ docker-compose exec app django-admin.py startproject app .
+$ docker compose exec app django-admin.py startproject app .
 ```
